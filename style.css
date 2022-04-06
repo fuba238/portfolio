@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Impact';
+}
+header {
+    position: relative;
+    height: 60px;
+    background-color: black;
+}
+header h1 {
+    position: absolute;
+    font-size: 40px;
+    margin: 0;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+    color: white;
+}
+header div {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    right: 0%;
+    background: linear-gradient(135deg, black 50%, white 50%);
+}
+header img {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 50%;
+    left: 50%;
+}
+header p {
+    position: absolute;
+    font-size: 16px;
+    top: 50%;
+    left: 54%;
+    margin: 0;
+    color: white;
+}
+section {
+    height: 100%;
+    width: 100%;
+}
+section .head-left{
+    position: relative;
+    margin: 30px 0 0 0;
+    width: 70%;
+    background-color: black;
+    height: 50px;
+}
+section .head-left h3 {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+section .head-left div {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 0%;
+    background: linear-gradient(135deg, black 50%, white 50%);
+}
+section .list-left {
+    font-size: 20px;
+    margin: 10px auto 80px auto;
+}
+section .head-right {
+    position: relative;
+    margin: 30px 0 0 auto;
+    right: 0%;
+    width: 70%;
+    background-color: black;
+    height: 50px;
+}
+section .head-right h3 {
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+section .head-right div {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 0%;
+    background: linear-gradient(225deg, black 50%, white 50%);
+}
+section .list-right {
+    font-size: 20px;
+    margin-left: 80%;
+    margin: 10px auto 80px 80%;
+}
+main {
+    background-color: black;
+    height: 200px;
+}
+footer {
+    position: relative;
+    margin-top: 30px;
+    background-color: black;
+    height: 60px;
+}
+footer small {
+    position: absolute;
+    color: white;
+    top: 50%;
+    right: 3%;
+    transform: translateY(-50%);
+}
