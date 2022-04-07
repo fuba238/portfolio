@@ -1,11 +1,13 @@
 body {
     margin: 0;
     font-family: 'Impact';
+    background-color: #dbdbdb;
+    background-image: repeating-linear-gradient(-45deg,#fff, #fff 55px,transparent 0, transparent 110px);
 }
 header {
     position: relative;
     height: 60px;
-    background-color: black;
+    background: linear-gradient(135deg, black 93%, transparent 7%);
 }
 header h1 {
     position: absolute;
@@ -15,13 +17,6 @@ header h1 {
     left: 3%;
     transform: translateY(-50%);
     color: white;
-}
-header div {
-    position: absolute;
-    height: 60px;
-    width: 60px;
-    right: 0%;
-    background: linear-gradient(135deg, black 50%, white 50%);
 }
 header img {
     position: absolute;
@@ -45,9 +40,9 @@ section {
 section .head-left{
     position: relative;
     margin: 30px 0 0 0;
-    width: 70%;
-    background-color: black;
     height: 50px;
+    width: 70%;
+    background: linear-gradient(135deg, black 90%, transparent 10%);
 }
 section .head-left h3 {
     position: absolute;
@@ -58,13 +53,6 @@ section .head-left h3 {
     color: white;
     margin: 0;
 }
-section .head-left div {
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    right: 0%;
-    background: linear-gradient(135deg, black 50%, white 50%);
-}
 section .list-left {
     font-size: 20px;
     margin: 10px auto 80px auto;
@@ -73,9 +61,9 @@ section .head-right {
     position: relative;
     margin: 30px 0 0 auto;
     right: 0%;
-    width: 70%;
-    background-color: black;
     height: 50px;
+    width: 70%;
+    background: linear-gradient(45deg, transparent 10%, black 10%);
 }
 section .head-right h3 {
     position: absolute;
@@ -85,13 +73,6 @@ section .head-right h3 {
     font-size: 30px;
     color: white;
     margin: 0;
-}
-section .head-right div {
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    left: 0%;
-    background: linear-gradient(225deg, black 50%, white 50%);
 }
 section .list-right {
     font-size: 20px;
